@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class Person {
 
-    String name;
-    Date dob;
+    final String name;
+    final Date dob;
 
     public void display() {
 
