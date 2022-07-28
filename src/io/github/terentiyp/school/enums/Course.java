@@ -1,4 +1,4 @@
-package io.github.terentiyp.school;
+package io.github.terentiyp.school.enums;
 
 public enum Course {
     MATHEMATICS,

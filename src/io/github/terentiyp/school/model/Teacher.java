@@ -1,6 +1,6 @@
-package io.github.terentiyp.school;
+package io.github.terentiyp.school.model;
 
-import io.github.terentiyp.school.model.Person;
+import io.github.terentiyp.school.enums.Course;
 
 import java.util.Date;
 
