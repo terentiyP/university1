@@ -12,10 +12,12 @@ public class Student extends Person {
         this.yearOfUniversity = yearOfUniversity;
 
 
-
     }
 
-    public void sd(){
-        System.out.println("Year of university: "+ YearOfUniversity.FIFTH);
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("Year of university: " + YearOfUniversity.FIFTH);
     }
+
 }
