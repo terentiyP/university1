@@ -1,5 +1,7 @@
 package io.github.terentiyp.school.model;
 
+import io.github.terentiyp.school.enums.YearOfUniversity;
+
 import java.util.Date;
 
 public class Person {
@@ -9,11 +11,12 @@ public class Person {
 
     public void display() {
 
-        System.out.println("io.github.terentiyp.school.Name: " + name + "\nAge: " + dob);
+        System.out.println("io.github.terentiyp.school.\nName: " + name + "\nAge: " + dob);
     }
+
     public Person(String name, Date dob) {
 
-        this.name=name;
+        this.name = name;
         this.dob = dob;
     }
 
@@ -26,5 +29,8 @@ public class Person {
         return name;
     }
 
+
+    public void sd(){
+        System.out.println("Year of university: "+ YearOfUniversity.FIFTH);}
 
 }
